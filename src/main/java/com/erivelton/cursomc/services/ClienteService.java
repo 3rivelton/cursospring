@@ -93,7 +93,7 @@ public class ClienteService {
 	
 	private void updateData(Cliente newObj, Cliente obj) {
 		newObj.setNome(obj.getNome());
-		newObj.setMail(obj.getMail());
+		newObj.setEmail(obj.getEmail());
 	}
 	
 }
